@@ -2,10 +2,10 @@
 """ Annotating the below function's parameters and return
 values with the appropriate types"""
 
-from typing import Any, Tuple, List
+from typing import Iterable, Tuple, List, Sequence
 
 
-def element_length(lst: List[Any]) -> List[Tuple[Any, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """ since in duck typing there is less regard for data types,
     we incoroporate any
     We also know this function returns i and the length of
