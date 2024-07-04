@@ -1,6 +1,8 @@
-#!/usr/bin/python3
-""" Augments the following code with the correct duck-typed annotations
-# The types of the elements of the input are not know
+#!/usr/bin/env python3
+""" Augments the following code with the
+correct duck-typed annotations
+# The types of the elements of the input
+are not known
 def safe_first_element(lst):
     if lst:
         return lst[0]
@@ -13,7 +15,8 @@ from typing import Union, Any, Sequence
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
-    Returns the first element of the list if it exists, otherwise returns None.
+    Returns the first element of the list if it exists,
+    otherwise returns None.
 
     Args:
         lst: A list of elements (type unknown).

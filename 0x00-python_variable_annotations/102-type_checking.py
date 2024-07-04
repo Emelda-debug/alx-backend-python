@@ -1,7 +1,8 @@
 
 #!/usr/bin/env python3
 """
-Use mypy to validate the following piece of code and apply any necessary changes
+Use mypy to validate the following piece of code
+and apply any necessary changes
 """
 from typing import Union, Any, Mapping, Tuple, List
 
@@ -12,9 +13,11 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
     by duplicating its elements
 
     Arguments:
-        lst: Tuple - The input list-like element. While it's declared as a Tuple, the function seems
+        lst: Tuple - The input list-like element. While it's
+        declared as a Tuple, the function seems
         to work with any iterable sequence (like lists).
-        factor: int = 2 (Optional) - The zoom factor, an integer specifying how many times to duplicate
+        factor: int = 2 (Optional) - The zoom factor, an
+        integer specifying how many times to duplicate
         each element. Defaults to 2.
     """
     zoomed_in: List = [
