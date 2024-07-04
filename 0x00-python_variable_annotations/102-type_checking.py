@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """
 Using mypy to validate the following piece of code
