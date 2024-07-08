@@ -14,7 +14,7 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     """ async routine  that takes in 2 int arguments"""
     
     task_lists = random.uniform(0, max_delay)
-    await asyncio.sleep(randomValue)
+    await asyncio.sleep(task_lists)
     return task_lists
 
 
